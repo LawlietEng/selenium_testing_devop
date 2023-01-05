@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
-serv_obj=Service("C:\driver\chromedriver_win32.zip\chromedriver")
+serv_obj=Service("/var/lib/jenkins/tools/chromedriver/chromedriver")
 
 
 driver= webdriver.Chrome(service =serv_obj)
